@@ -1,17 +1,17 @@
-# Machine name
-Machine description
+# Doubting-Machine
+A Machine that doubts each an every sentence of the context.
 ```bash
   echo '[{"role": "user", "content": "I have a question..."}]' \
-    | uvx machine-name \
+    | uvx doubting-machine \
         --provider-api-key=sk-ant-api... \
         --github-token=ghp_... 
 ```
 Or:
 ```bash
-  pip install machine-name
+  pip install doubting-machine
 ```
 Then:
 ```Python
   # Python
-  import machine_name
+  import doubting_machine
 ```
